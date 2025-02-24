@@ -78,6 +78,7 @@ include_directories(
 ## in contrast to setup.py, you can choose the destination
 catkin_install_python(PROGRAMS
   scripts/imu_listener.py
-  scripts/imu_plotter.py
+  scripts/calibration.py
+  scripts/rpi_read_imu_data.py
   DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 )

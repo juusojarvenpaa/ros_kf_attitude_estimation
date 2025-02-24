@@ -7,12 +7,17 @@ This is a **ROS package** designed for attitude estimation using an **MPU6050 IM
 The system was implemented on Ubuntu 20.04, running ROS noetic on both devices.
 
 ## Installation
-### **1. Clone the Repository**
+### **1. Clone the repository**
 ```bash
 cd ~/catkin_ws/src
 git clone https://github.com/juusojarvenpaa/ros_kf_attitude_estimation.git
+```
+
+### **2. Build and source the workspace**
+```bash
 cd ~/catkin_ws
 catkin_make
+source devel/setup.bash
 ```
 
 ## Usage
